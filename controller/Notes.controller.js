@@ -20,7 +20,7 @@ if(!createdNote){
     return res.status(401).send({message:"error while creating notes"})
 }
 
-res.status(201).send({result:true,message:"note created Succefffully",note:createdNote})
+res.status(201).send({result:true,message:"note created Successfully",note:createdNote})
 
 }catch(er){
 console.log(er)
